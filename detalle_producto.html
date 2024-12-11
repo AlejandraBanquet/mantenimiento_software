@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details</title>
+  <link rel="stylesheet" href="estilos/style_detalle.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="menu_principal.html">
+        <img src="assets/logo.png" alt="logo">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="carrito.html">Carrito</a></li>
+        <li><a href="menu_principal.html">Inicio</a></li>
+        <!-- <li><a href="#">Ofertas Especiales</a></li>
+        <li><a href="#">Más Vendidos</a></li> -->
+        <li><a href="index.html">Cerrar Sesion</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="product-details">
+    <div class="product-image">
+      <img id="product-image" src="#" alt="Product Image">
+    </div>
+    <div class="product-info">
+      <div id="product-name" class="product-name"></div>
+      <div id="product-price" class="product-price"></div>
+      <p id="product-description"></p>
+      <button id="add-to-cart" class="add-to-cart">Agregar al carrito</button>
+    </div>
+  </div>
+
+  <div class="recommendations">
+    <h2>Recomendaciones</h2>
+    <div id="recommendations-grid" class="product-grid">
+      <!-- Las recomendaciones se llenarán automáticamente aquí -->
+    </div>
+  </div>
+
+  <footer>
+    Copyright © 2024 Ale Banquet
+</footer>
+
+  <script src="js/detalle.js"></script>
+</body>
+</html>
